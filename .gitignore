@@ -1,0 +1,25 @@
+# Course scaffold and datasets: not redistributed
+data/
+*.arff
+weka.jar
+java/weka/classifiers/trees/ClassificationTree.java
+java/weka/classifiers/trees/Splitter.java
+java/weka/classifiers/trees/UnivariateNumericAttributeSplitter.java
+python/ClassificationTree.py
+python/Splitter.py
+python/UnivariateNumericAttributeSplitter.py
+python/BasicTest.py
+python/WekaWrapperClassificationTree.py
+
+# Build / Python
+*.class
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE / agent
+.DS_Store
+.idea/
+.vscode/
+.context/
